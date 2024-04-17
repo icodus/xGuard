@@ -22,7 +22,7 @@ Should be a bit more reliable and a bit faster most probably.
 "~*(\.(jpg|css|png)):(.*)";
 #whitelist bad_request_24 coming from 192.168.100.103  
 "~*(192.168.100.103):(.*)(bad_request_24)";
-#whitelist bad_querystring_6 and bad_request_24 if query string contain "page=seopress-google-analytics&code"
+#whitelist bad_querystring_6 and bad_request_24 if query string contains "page=seopress-google-analytics&code"
 "~*(page=seopress-google-analytics&code):(.*)(bad_querystring_6|bad_request_24)";
 ```
 
