@@ -28,7 +28,7 @@ Should be a bit more reliable and a bit faster.
 "~*(page=seopress-google-analytics&code):(.*)(bad_querystring_6|bad_request_24)";
 ```
 
-
+more to come..
 
 
 
