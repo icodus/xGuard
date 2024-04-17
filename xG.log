@@ -1,0 +1,1 @@
+log_format xG_log escape=none '[$time_local] [$xGreason] $remote_addr $http_host "$request" $status $request_time "$http_referer" "$http_user_agent"';
